@@ -176,7 +176,7 @@ const options = {
     if (selectedDate <= new Date()) {
       iziToast.error({
         title: 'Error',
-        message: 'Illegal operation! Please choose a date in the future.',
+        message: '"Please choose a date in the future"',
         position: 'topRight',
         backgroundColor: '#ef4040',
         titleColor: '#fff',
